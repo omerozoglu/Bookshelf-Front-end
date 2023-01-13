@@ -13,6 +13,7 @@ import { GTableComponent } from './components/g-table/g-table.component';
 import { GFilterComponent } from './components/g-filter/g-filter.component';
 import { GInputComponent } from './components/g-input/g-input.component';
 import { GContainerComponent } from './components/g-container/g-container.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GContainerComponent } from './components/g-container/g-container.compon
     GTableComponent,
     GFilterComponent,
     GInputComponent,
-    GContainerComponent
+    GContainerComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
