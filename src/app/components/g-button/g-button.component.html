@@ -1,1 +1,40 @@
-<p>g-button works!</p>
+<!--
+  Standard Button
+-->
+<button *ngIf="type === 1" (click)="click()">
+  {{ value }}
+</button>
+
+<!--
+  Confirm Button
+-->
+<button
+  *ngIf="type === 2"
+  (click)="click()"
+  class="confirm"
+  [ngStyle]="[
+    { 'background-color': backgroundColor.valueOf() },
+    { 'border-color': borderColor.valueOf() }
+  ]"
+>
+  {{ value }}
+</button>
+
+<!--
+  Deny Button
+-->
+<button *ngIf="type === 3" (click)="click()" class="deny">
+  {{ value }}
+</button>
+
+<!--
+  WithIcon Button
+-->
+<button
+  *ngIf="type === 4"
+  (click)="click()"
+  class="with-icon"
+  [ngStyle]="{ 'background-color': backgroundColor.valueOf() }"
+>
+  {{ value }}
+</button>

@@ -9,8 +9,6 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
-
-
 @NgModule({
   declarations: [
     GButtonComponent,
@@ -22,9 +20,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     FooterComponent,
     PageNotFoundComponent,
   ],
-  imports: [
-    CommonModule
-  ], exports: [
+  imports: [CommonModule],
+  exports: [
     GButtonComponent,
     GContainerComponent,
     GFilterComponent,
@@ -33,6 +30,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NavigationBarComponent,
     FooterComponent,
     PageNotFoundComponent,
-  ]
+  ],
 })
-export class ComponentsModule { }
+export class ComponentsModule {}

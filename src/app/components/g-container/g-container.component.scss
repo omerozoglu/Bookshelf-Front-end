@@ -1,0 +1,8 @@
+@import "../../../variables";
+
+.app-g-container {
+  background-color: $white_p;
+  box-shadow: rgba(149, 157, 165, 0.2) 8px 8px 24px;
+  // box-shadow: 1px 6px 6px 0px $shadow_p;
+  border-radius: 18px;
+}

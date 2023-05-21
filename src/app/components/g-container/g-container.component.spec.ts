@@ -8,9 +8,8 @@ describe('GContainerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GContainerComponent ]
-    })
-    .compileComponents();
+      declarations: [GContainerComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(GContainerComponent);
     component = fixture.componentInstance;
